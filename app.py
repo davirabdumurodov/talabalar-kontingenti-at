@@ -10,6 +10,11 @@ def add_student(name):
     students.append(name)
     print(f"Qo'shildi: {name}")
 
+def list_groups():
+    for g, members in groups.items():
+        print(f"Guruh {g}: {', '.join(members)}")
+
 if __name__ == "__main__":
     list_students()
     add_student("Soliyev Jasur")
+    list_groups()
