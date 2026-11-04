@@ -11,3 +11,4 @@ def add_student(name):
 
 if __name__ == "__main__":
     list_students()
+    add_student("Soliyev Jasur")
